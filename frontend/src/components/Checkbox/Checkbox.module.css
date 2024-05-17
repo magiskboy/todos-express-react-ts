@@ -1,0 +1,17 @@
+.checkbox-wrapper {
+    display: flex;
+    gap: 12px;
+}
+
+.checkbox {
+    width: 17px;
+    height: 17px;
+    border: 2px solid black;
+    background: white;
+    user-select: none;
+    cursor: pointer;
+}
+
+.checked {
+    background: #57C0BA;
+}

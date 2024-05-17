@@ -1,0 +1,15 @@
+.task-item {
+    width: 100%;
+    display: flex;
+    gap: 12px;
+    margin: 16px 0;
+    justify-content: space-between;
+}
+
+.delete-task {
+    margin-right: 16px;
+}
+
+.task-item span {
+    font-family: 'Inter';;
+}

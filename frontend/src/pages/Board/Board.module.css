@@ -1,0 +1,15 @@
+.main {
+    background: url('../../assets/bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 32px;
+    min-height: 100svh;
+    box-sizing: border-box;
+}
+
+.image {
+    margin: 20px 0;
+}

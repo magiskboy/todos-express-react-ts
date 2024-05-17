@@ -1,0 +1,33 @@
+.main {
+    background: url('../../assets/bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;;
+    height: 100svh;
+    display: flex;
+    padding: 0 32px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image {
+    margin-top: calc(50vh - 300px);
+    margin-bottom: 50px;
+}
+
+.welcome {
+    text-align: center;
+    font-family: 'Inter';
+    flex: 1;
+}
+
+.welcome p {
+    margin: 0 auto;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 14px;
+    text-align: center
+}
+
+.button {
+    width: 100%;
+    margin-bottom: 100px;
+}
