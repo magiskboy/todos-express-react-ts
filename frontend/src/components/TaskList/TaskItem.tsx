@@ -1,6 +1,6 @@
 import React from "react";
 import s from "./TaskItem.module.css";
-import { Checkbox } from "../Checkbox/Checkbox";
+import { Checkbox } from "../Checkbox";
 import minusCircle from "../../assets/minus-circle.svg";
 import type { Task } from "../../types";
 

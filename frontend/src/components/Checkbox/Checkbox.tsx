@@ -23,6 +23,7 @@ export const Checkbox: React.FC<React.PropsWithChildren<Props>> = ({
       }}
     >
       <div
+        data-testid="checkbox"
         {...rest}
         className={`${s.checkbox} ${value ? s.checked : ""}`}
       ></div>

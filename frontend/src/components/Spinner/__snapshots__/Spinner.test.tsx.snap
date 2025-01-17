@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Spinner component renders without crashing 1`] = `
+<div>
+  <div
+    class="spinner"
+    data-testid="spinner"
+  />
+</div>
+`;

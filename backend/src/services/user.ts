@@ -86,7 +86,7 @@ export async function updateUser(
 export async function loginUser(
   email: string,
   password: string
-): Promise<{ access_token: string; user: UserType } | undefined> {
+): Promise<{ access_token: string; user: Omit<UserType, "hashPassword"> } | undefined> {
   try {
     const user = await db.query.User.findFirst({
       where: eq(User.email, email),
@@ -101,7 +101,7 @@ export async function loginUser(
       return undefined;
     }
 
-    const token = await createAccessToken({
+    const token = createAccessToken({
       id: user.id,
       email: user.email,
       name: user.name,

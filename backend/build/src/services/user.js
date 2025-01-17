@@ -81,7 +81,7 @@ async function loginUser(email, password) {
         if (!verified) {
             return undefined;
         }
-        const token = await (0, helpers_1.createAccessToken)({
+        const token = (0, helpers_1.createAccessToken)({
             id: user.id,
             email: user.email,
             name: user.name,
